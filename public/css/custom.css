@@ -1,0 +1,110 @@
+/* here you can put your own css to customize and override the admin theme */
+
+
+.display_control_section
+{
+    display: none;
+}
+
+.form-actions.display_control_section
+{
+    margin-bottom: 25px;
+}
+
+
+.display_value_section
+{
+    display: inline-block;
+}
+
+label.display_value_section
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.table .btn-group .btn {
+    margin-right: 0px;
+}
+
+/* Dropdown To Right Of Text Input */
+.input-group-btn > select.btn { padding: 6px 13px 5px 13px; background-color: #F9F9F9; border: 1px solid #DDD; border-left-width: 5px; color:#888; }
+
+.dashboard-stat2
+{
+    cursor: pointer;
+}
+
+
+.ps_box_exists{
+    background: none repeat scroll 0 0 #c5a553;
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin: 4px 10px;
+    float: left;
+}
+
+.ps_box_mandatory_not_db{
+    background: none repeat scroll 0 0 #CCCC9F;
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin: 4px 10px;
+    float: left;
+}
+
+
+
+
+.ps_box_mandatory
+{
+    background: none repeat scroll 0 0 #E57A6D;
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin: 4px 10px;
+    float: left;
+}
+
+.ps_box_not_db
+{
+    background: none repeat scroll 0 0 #FFFFA6;
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin: 4px 10px;
+    float: left;
+}
+
+
+
+.ps_box_exists_tr td
+{
+    background: none repeat scroll 0 0 #c5a553;
+}
+
+
+.ps_box_mandatory_not_db_td
+{
+    background: none repeat scroll 0 0 #CCCC9F;
+}
+
+.ps_box_mandatory_td
+{
+    background: none repeat scroll 0 0 #E57A6D;
+}
+
+.ps_box_not_db_td
+{
+    background: none repeat scroll 0 0 #FFFFA6;
+}
+
+#on_boarding_datatable_container .table-scrollable > .table > thead > tr > th,
+#on_boarding_datatable_container .table-scrollable > .table > tbody > tr > th,
+#on_boarding_datatable_container .table-scrollable > .table > tfoot > tr > th,
+#on_boarding_datatable_container .table-scrollable > .table > tfoot > tr > th,
+#on_boarding_datatable_container .table-scrollable > .table > tfoot > tr > td
+{
+    white-space:normal;
+}

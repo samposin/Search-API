@@ -1,0 +1,9 @@
+/* here you can put your own css to customize and override the default theme */
+
+.login .logo {
+    margin: 0px auto;
+}
+
+.login .logo img{
+   width:100%;
+}
